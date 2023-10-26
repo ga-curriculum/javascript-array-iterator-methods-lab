@@ -2,11 +2,12 @@
 
 ## Introduction
 
-tktk Introduce the lab. What will the students build in this lab?
+This lab offers a structured environment for you to practice several very useful array iterator methods that you've been introduced to, such as `forEach`, `filter`, etc. By completing a series of exercises to provide practice, you will build a strong foundation in working with some of these array functional methods!
 
 ## Prerequisites
 
-- tktk
+- Introduction to JavaScript Arrays
+- Array Iterator Methods
 
 ## Time to complete
 
