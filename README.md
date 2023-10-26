@@ -2,7 +2,7 @@
 
 ## Introduction
 
-This lab offers a structured environment for you to practice several very useful array iterator methods that you've been introduced to, such as `forEach`, `filter`, etc. By completing a series of exercises to provide practice, you will build a strong foundation in working with some of these array functional methods!
+This lab offers a structured environment for you to practice several very useful array iterator methods that you've been introduced to, such as `forEach`, `filter`, etc. By completing a series of exercises, you will build a strong foundation in working with some array functional methods!
 
 ## Prerequisites
 
