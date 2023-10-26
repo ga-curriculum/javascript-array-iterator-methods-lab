@@ -1,4 +1,4 @@
-# ![tktk Module Name - Lab Exercise](./assets/hero.png)
+# ![Array Iterator Methods - Lab Exercise](./assets/hero.png)
 
 ## Introduction
 
