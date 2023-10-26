@@ -87,7 +87,7 @@ const comments = [
 ];
 ```
 
-> ❗️ These arrays **MUST** be placed above **ALL** of the exercised you will be completing below!
+> ❗️ These arrays **MUST** be placed above **ALL** of the exercises you will be completing below!
 
 ## Lab Exercises
 
