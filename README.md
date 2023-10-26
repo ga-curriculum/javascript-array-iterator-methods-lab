@@ -17,7 +17,7 @@ Estimated time to complete core lab exercise: tktk min
 
 - [Setup](./setup/README.md)
 - [Lab exercise](./exercise/README.md)
-- [Solution code](#tktk-external-repo-link)
+- [Solution code](https://git.generalassemb.ly/modular-curriculum-all-courses/array-iterator-methods-lab-solution)
 
 ## Level Up
 
