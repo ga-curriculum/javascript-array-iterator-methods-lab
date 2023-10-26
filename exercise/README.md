@@ -353,7 +353,7 @@ Try the following exercises if you completed the `Level Up` section of the Array
 
 // Bonus 1. How many years did all the inventors live?
 
-let years = -1
+let years = 0
 
 // Enter your solution code here:
 
@@ -373,7 +373,7 @@ console.log('Bonus 1 Correct Result: ', 861)
 
 // Hint: Since you want to return an object, be sure to pass an empty {} for the initial value of the "accumulator".
 
-let countInst = 
+let countInst = {}
 
 // Enter your solution code here:
 
