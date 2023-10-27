@@ -2,11 +2,12 @@
 
 ## Introduction
 
-tktk Introduce the lab. What will the students build in this lab?
+This lab offers a structured environment for you to practice several very useful array iterator methods that you've been introduced to, such as `forEach`, `filter`, etc. By completing a series of exercises, you will build a strong foundation in working with some array functional methods!
 
 ## Prerequisites
 
-- tktk
+- Introduction to JavaScript Arrays
+- Array Iterator Methods
 
 ## Time to complete
 
@@ -16,8 +17,7 @@ Estimated time to complete core lab exercise: tktk min
 
 - [Setup](./setup/README.md)
 - [Lab exercise](./exercise/README.md)
-- [Starter code](#tktk-external-repo-link) tktk - remove if no starter 
-- [Solution code](#tktk-external-repo-link) tktk - remove if no solution
+- [Solution code](https://git.generalassemb.ly/modular-curriculum-all-courses/array-iterator-methods-lab-solution)
 
 ## Level Up
 
