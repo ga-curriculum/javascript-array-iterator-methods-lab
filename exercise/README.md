@@ -100,14 +100,14 @@ Copy and paste each of the following exercises into your JavaScript file. To che
 
 // 1. Filter the array of inventors into a new array containing only the inventors born in the 1500's.
 
-let fifHuns = []
+let veryOldInventors = []
 
 // Enter your solution code here:
 
 
 
 // Check your return value:
-console.log('Exercise 1 My Result: ', fifHuns)
+console.log('Exercise 1 My Result: ', veryOldInventors)
 console.log('Exercise 1 Correct Result: ',
     [
         { first: 'Galileo', last: 'Galilei', year: 1564, passed: 1642 },
@@ -123,7 +123,7 @@ console.log('Exercise 1 Correct Result: ',
 
 // 2. Map the array of the inventors into a new array containing objects with just the first and last names as properties.
 
-// Hint:  Return a new object literal from the callback (don't mutate the object being passed in to map)
+// Hint:  Return a new object literal from the callback (don't change properties on the object being passed in to map)
 
 let names = []
 
@@ -351,7 +351,7 @@ Try the following exercises if you completed the `Level Up` section of the Array
 ```js
 // Array.prototype.reduce()
 
-// Bonus 1. How many years did all the inventors live?
+// Bonus 1. How many years did all the inventors live combined?
 
 let years = 0
 
