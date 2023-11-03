@@ -91,7 +91,7 @@ const comments = [
 
 ## Lab Exercises
 
-Copy and paste each of the following exercises into your JavaScript file. To check your work, open the file in a web browser and inspect the console output, or run the file in your terminal using `node script.js`.
+Copy and paste each of the following exercises into your JavaScript file. To check your work, open the file in a web browser and inspect the console output, or run the file in your terminal using `node app.js`.
 
 
 ### Exercise 1: Array.prototype.filter()
@@ -124,7 +124,8 @@ console.log('Exercise 1 Correct Result: ',
 
 // 2. Map the array of the inventors into a new array containing objects with just the first and last names as properties.
 
-// Hint:  Return a new object literal from the callback (don't change properties on the object being passed in to map)
+// Hint:  Return a new object literal from the callback that looks something like { first: "First Name", last: "Last Name" }
+// where "First Name" is the inventor's first name and "Last Name" is the inventor's last name.
 
 let names = []
 
@@ -158,7 +159,7 @@ console.log('Exercise 2 Correct Result: ',
 ```js
 // Array.prototype.sort()
 
-// 3. Sort the inventors by birth date (year property), in ascending order.
+// 3. Sort the inventors by birth date in ascending order (from those born furthest in the past to those born most recently).
 
 let birthdate = []
 
@@ -269,12 +270,12 @@ console.log('Exercise 5 Correct Result: ',
 
 ### Exercise 6: Array.prototype.some()
 
+
+
 ```js
 // Array.prototype.some()
 
-// 6. Check if at least one person is 19 or older?
-
-// Hint: To get today's year, use the getFullYear method of new Date(), i.e., new Date().getFullYear().
+// 6. Check if at least one person is 19 or older? 
 
 let older = null
 
@@ -286,6 +287,8 @@ let older = null
 console.log('Exercise 6 My Result: ', older)
 console.log('Exercise 6 Correct Result: ', true)
 ```
+
+You can use a static year value to solve problems 6 and 7. As a small level up opportunity, check out how to dynamically get today's year using the [Date()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date/Date) constructor. 
 
 ### Exercise 7: Array.prototype.every()
 
