@@ -1,4 +1,4 @@
-# ![[tktk Module Name]](./assets/tktkhero-main.png)
+# ![JavaScript Array Iterator Methods Lab](./assets/tktkhero-main.png)
 
 ## Introduction
 
@@ -11,7 +11,7 @@ This lab offers a structured environment for you to practice several very useful
 
 ## Time to complete
 
-Estimated time to complete core lab exercise: tktk min
+Estimated time to complete core lab exercise: 90 min
 
 ## Lab
 
@@ -19,9 +19,6 @@ Estimated time to complete core lab exercise: tktk min
 - [Lab exercise](./exercise/README.md)
 - [Solution code](https://git.generalassemb.ly/modular-curriculum-all-courses/array-iterator-methods-lab-solution)
 
-## Level Up
-
-[Level Up](./level-up/README.md) tktk - remove section if no level ups 
 
 ## Internal resources
 

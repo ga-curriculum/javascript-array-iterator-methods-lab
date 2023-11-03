@@ -93,6 +93,7 @@ const comments = [
 
 Copy and paste each of the following exercises into your JavaScript file. To check your work, open the file in a web browser and inspect the console output, or run the file in your terminal using `node script.js`.
 
+
 ### Exercise 1: Array.prototype.filter()
 
 ```js
