@@ -1,4 +1,4 @@
-# !JavaScript Array Iterator Methods Lab - Instructor Guide](../assets/tktkhero-secondary.png)
+# ![JavaScript Array Iterator Methods Lab - Instructor Guide](../assets/instructor-guide.png)
 
 ---
 
