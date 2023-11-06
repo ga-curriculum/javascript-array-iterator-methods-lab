@@ -1,4 +1,4 @@
-# ![Array Iterator Methods - Lab Exercise](./assets/hero.png)
+# ![JavaScript Array Iterator Methods Lab - Exercise](./assets/hero.png)
 
 ## Introduction
 

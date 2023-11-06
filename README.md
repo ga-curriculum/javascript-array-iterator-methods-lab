@@ -1,4 +1,4 @@
-# ![JavaScript Array Iterator Methods Lab](./assets/tktkhero-main.png)
+# ![JavaScript Array Iterator Methods Lab](./assets/hero.png)
 
 ## Introduction
 
