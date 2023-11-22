@@ -16,7 +16,7 @@ Happy coding!
 
 ## Data Setup
 
-Copy and paste each of the following arrays at the top of our `script.js` file to serve as our `database` which we will use to practice our array iterator methods.
+Copy and paste each of the following arrays at the top of our `script.js` file to serve as our "database" which we will use to practice our array iterator methods.
 
 ### Inventors
 
@@ -68,10 +68,10 @@ const travelMethods = [
 
 ```js
 const devs = [
-  { name: 'Wes', year: 1988 },
-  { name: 'Kait', year: 1986 },
-  { name: 'Irv', year: 1970 },
-  { name: 'Lux', year: 2015 }
+  { name: 'Alex', year: 1988 },
+  { name: 'Dani', year: 1986 },
+  { name: 'Matt', year: 1970 },
+  { name: 'Wes', year: 2015 }
 ];
 ```
 
@@ -91,7 +91,7 @@ const comments = [
 
 ## Lab Exercises
 
-Copy and paste each of the following exercises into your JavaScript file. To check your work, open the file in a web browser and inspect the console output, or run the file in your terminal using `node app.js`.
+Copy and paste each of the following exercises into your JavaScript file. To check your work, open the file in a web browser and inspect the console output, or run the file in your terminal using `node script.js`.
 
 
 ### Exercise 1: Array.prototype.filter()
@@ -100,6 +100,10 @@ Copy and paste each of the following exercises into your JavaScript file. To che
 // Array.prototype.filter()
 
 // 1. Filter the array of inventors into a new array containing only the inventors born in the 1500's.
+
+// - You have an array of inventors, each with a birth year listed by the property 'year'.
+// - Use the Array.prototype.filter() method to create a new array.
+// - The new array, 'veryOldInventors', should only include inventors born between the years 1500 and 1599.
 
 let veryOldInventors = []
 
@@ -122,19 +126,22 @@ console.log('Exercise 1 Correct Result: ',
 ```js
 // Array.prototype.map()
 
-// 2. Map the array of the inventors into a new array containing objects with just the first and last names as properties.
+// 2. Map the array of inventors into a new array. This new array should only contain objects with the inventors' first and last names.
+
+// - For each inventor, return an object in the format { first: "First Name", last: "Last Name" }.
+// - The new array should be a collection of these objects, each representing an inventor with only their first and last names.
 
 // Hint:  Return a new object literal from the callback that looks something like { first: "First Name", last: "Last Name" }
-// where "First Name" is the inventor's first name and "Last Name" is the inventor's last name.
 
-let names = []
+
+let inventorNames = []
 
 // Enter your solution code here:
 
 
 
 // Check your return value:
-console.log('Exercise 2 My Result: ', names)
+console.log('Exercise 2 My Result: ', inventorNames)
 console.log('Exercise 2 Correct Result: ',
     [
         { first: 'Albert', last: 'Einstein' },
@@ -161,14 +168,14 @@ console.log('Exercise 2 Correct Result: ',
 
 // 3. Sort the inventors by birth date in ascending order (from those born furthest in the past to those born most recently).
 
-let birthdate = []
+let sortedByBirthYear = []
 
 // Enter your solution code here:
 
 
 
 // Check your return value:
-console.log('Exercise 3 My Result: ', birthdate)
+console.log('Exercise 3 My Result: ', sortedByBirthYear)
 console.log('Exercise 3 Correct Result: ',
     [
         { first: 'Nicolaus', last: 'Copernicus', year: 1473, passed: 1543 },
@@ -192,16 +199,20 @@ console.log('Exercise 3 Correct Result: ',
 ```js
 // Array.prototype.find()
 
-// 4. Find the inventor object with the first name of 'Ada'.
+// 4. Use Array.prototype.find() to identify the inventor with the first name 'Ada' from an array of inventor objects
 
-let inventor = {}
+// - You have an array of objects, each representing an inventor with various properties including their first name.
+// -  Utilize the Array.prototype.find() method to locate the object for the inventor named 'Ada'.
+// -  Assign the found inventor object to the variable 'inventorNamedAda'
+
+let inventorNamedAda = {}
 
 // Enter you solution code here:
 
 
 
 // Check your return value:
-console.log('Exercise 4 My Result: ', inventor)
+console.log('Exercise 4 My Result: ', inventorNamedAda)
 console.log('Exercise 4 Correct Result: ', { first: 'Ada', last: 'Lovelace', year: 1815, passed: 1852 })
 ```
 
@@ -210,9 +221,11 @@ console.log('Exercise 4 Correct Result: ', { first: 'Ada', last: 'Lovelace', yea
 ```js
 // Array.prototype.map()
 
-// 5. Map the people array such that the new array consists of strings with the names formatted as "First Last", e.g., "Becker, Carl" should be mapped to "Carl Becker".
+// 5. Use the Array.prototype.map() method to reformat each name in the 'people' array. 
+// The goal is to convert names from "Last, First" format to "First Last" format.
 
-// Hint: As a start, consider using the String.prototype.split method to "split" the string using ', ' as the separator.
+// Hint: Use the String.prototype.split method to separate the first and last names. You can split the string using ', ' as the separator.
+// After splitting the names, rearrange them to the "First Last" format.
 
 let firstLast = []
 
@@ -271,20 +284,23 @@ console.log('Exercise 5 Correct Result: ',
 ### Exercise 6: Array.prototype.some()
 
 
-
 ```js
 // Array.prototype.some()
 
-// 6. Check if at least one person is 19 or older? 
+// 6. Determine if there is at least one person in the devs array who is 18 years old or older.
 
-let older = null
+// - You have an array of people with their respective ages.
+// - Use the Array.prototype.some() method to check if any person in the array is 18 years old or older.
+// - Store the result (true or false) in the variable 'isAdultPresent'. 
+
+let isAdultPresent = null
 
 // Enter your solution code here:
 
 
 
 // Check your return value:
-console.log('Exercise 6 My Result: ', older)
+console.log('Exercise 6 My Result: ', isAdultPresent)
 console.log('Exercise 6 Correct Result: ', true)
 ```
 
@@ -295,16 +311,20 @@ You can use a static year value to solve problems 6 and 7. As a small level up o
 ```js
 // Array.prototype.every()
 
-// 7. Check if everyone is 19 or older?
+// 7. Use Array.prototype.every() to determine if every person in the devs array is 19 years old or older.
 
-let allOlder = null
+// - You have an array of individuals, each with their year of birth represented by the 'year' property.
+// - Use the Array.prototype.every() method to verify if every individual in the array is at least 19 years old.
+// - Store the result (true or false) in the variable 'isEveryone19OrOlder'.
+
+let isEveryone19OrOlder = null
 
 // Enter your solution code here:
 
 
 
 // Check your return value:
-console.log('Exercise 7 My Result: ', allOlder)
+console.log('Exercise 7 My Result: ', isEveryone19OrOlder)
 console.log('Exercise 7 Correct Result: ', false)
 ```
 
@@ -313,17 +333,20 @@ console.log('Exercise 7 Correct Result: ', false)
 ```js
 // Array.prototype.find()
 
-// 8. Find the comment with the id of 823423.
+// 8. Use Array.prototype.find() to identify and retrieve the comment object with a specific ID 823423 from an array of comment objects.
 
-let iD = {}
+// - Assign the found comment object to the variable 'commentById'.
+
+
+let commentById = {}
 
 // Enter your solution code here:
 
 
 
 // Check your return value:
-console.log('Exercise 7 My Result: ', iD)
-console.log('Exercise 7 Correct Result: ', { text: 'Super good', id: 823423 })
+console.log('Exercise 8 My Result: ', commentById)
+console.log('Exercise 8 Correct Result: ', { text: 'Super good', id: 823423 })
 ```
 
 ### Exercise 9: Array.prototype.findIndex()
@@ -331,9 +354,11 @@ console.log('Exercise 7 Correct Result: ', { text: 'Super good', id: 823423 })
 ```js
 // Array.prototype.findIndex()
 
-// 9. Find the index of the comment with an id of 123523.
+// 9. Determine the index of the comment that has a specific ID 123523 in an array of comment objects.
 
-let idx = -1
+// - Store the index in the variable 'idx'.
+
+let idx = null
 
 // Enter your solution code here:
 
@@ -355,16 +380,25 @@ Try the following exercises if you completed the `Level Up` section of the Array
 ```js
 // Array.prototype.reduce()
 
-// Bonus 1. How many years did all the inventors live combined?
+// Bonus 1. Calculate the Combined Lifespan of Inventors Using Array.prototype.reduce()
 
-let years = 0
+// - Each object in the array includes properties: 'first', 'last', 'year' (birth year), and 'passed' (year of death).
+// - Use the Array.prototype.reduce() method to sum up the total years lived by all the inventors.
+// - Store the total sum in the variable 'totalYearsLived'.
+
+// Hints:
+// - Inside the reduce callback function, calculate the lifespan of each inventor (passed - year).
+// - Accumulate this lifespan in the 'totalYearsLived' variable.
+// - Remember, reduce takes a callback function and an initial value for the accumulator.
+
+let totalYearsLived = 0
 
 // Enter your solution code here:
 
 
 
 // Check your return value:
-console.log('Bonus 1 My Result: ', years)
+console.log('Bonus 1 My Result: ', totalYearsLived)
 console.log('Bonus 1 Correct Result: ', 861)
 ```
 
@@ -373,18 +407,24 @@ console.log('Bonus 1 Correct Result: ', 861)
 ```js
 // Array.prototype.reduce()
 
-// Bonus 2. Count the number of instances for each of the data items. The reduce should return an object where the keys are 'car', 'truck', etc. and the values are the count.
+// Bonus 2. Tallying Travel Methods Using Array.prototype.reduce(). Count the number of times each travel method appears in the 'travelMethods' array.
 
-// Hint: Since you want to return an object, be sure to pass an empty {} for the initial value of the "accumulator".
+// - The resulting object should have keys as the travel methods ('car', 'truck', 'bike', etc.) and values as their respective counts.
+// - Store this object in the variable 'travelMethodCounts'.
 
-let countInst = {}
+// Hints:
+// - Inside the reduce function, check if the travel method already exists as a key in your accumulator object. If it does, increment its count. If not, add it with a count of 1.
+// - Since you want to return an object, be sure to pass an empty {} for the initial value of the "accumulator".
+
+
+let travelMethodCounts = {}
 
 // Enter your solution code here:
 
 
 
 // Check your return value:
-console.log('Bonus 2 My Result: ', countInst)
+console.log('Bonus 2 My Result: ', travelMethodCounts)
 console.log('Bonus 2 Correct Result: ', { car: 5, truck: 3, bike: 2, walk: 2, van: 2 })
 ```
 

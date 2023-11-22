@@ -11,7 +11,7 @@ This lab offers a structured environment for you to practice several very useful
 
 ## Time to complete
 
-Estimated time to complete core lab exercise: 90 min
+Estimated time to complete core lab exercise: **90 min**
 
 ## Lab
 
