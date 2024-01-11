@@ -8,10 +8,24 @@ Open your Terminal application and navigate to your **`~/code/ga/labs`** directo
 cd ~/code/ga/labs
 ```
 
-Make a new directory called **`array-iterator-methods-lab`**, then enter this directory:
+Navigate to [GitHub](https://github.com/) and create a new repository named **array-iterator-methods-lab**.
+
+- Make sure the repo is set to `public`
+- You do not need a `README.md`
+- You do not need a `.gitignore`
+
+
+Using the `Quick Setup` option, clone your newly created repo into your `~/code/ga/labs` directory with the `git clone` command:
 
 ```bash
-mkdir array-iterator-methods-lab
+git clone https://git.generalassemb.ly/<your-username>/array-iterator-methods-lab.git
+```
+
+> Note: In the link above, where it says `<your-username>`, you should see the username from your GitHub account.
+
+Next, `cd` into your new cloned directory, `array-iterator-methods-lab`:
+
+```bash
 cd array-iterator-methods-lab
 ```
 
