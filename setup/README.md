@@ -1,6 +1,6 @@
 # ![JavaScript Array Iterator Methods Lab - Setup](./assets/hero.png)
 
-## Setup 
+## Setup
 
 Open your Terminal application and navigate to your **`~/code/ga/labs`** directory:
 
@@ -13,7 +13,6 @@ Navigate to [GitHub](https://github.com/) and create a new repository named **ar
 - Make sure the repo is set to `public`
 - You do not need a `README.md`
 - You do not need a `.gitignore`
-
 
 Using the `Quick Setup` option, clone your newly created repo into your `~/code/ga/labs` directory with the `git clone` command:
 
@@ -29,10 +28,10 @@ Next, `cd` into your new cloned directory, `array-iterator-methods-lab`:
 cd array-iterator-methods-lab
 ```
 
-Then, create an **`script.js`** and an **`index.html`** file. These files will hold your work for this lab:
+Then, create an **`app.js`** and an **`index.html`** file. These files will hold your work for this lab:
 
 ```bash
-touch script.js index.html
+touch app.js index.html
 ```
 
 With the files created, open the contents of the directory in VS Code:
@@ -41,20 +40,19 @@ With the files created, open the contents of the directory in VS Code:
 code .
 ```
 
-Open the **`index.html`** file and add HTML boilerplate. Then link the **`script.js`** file by adding this line inside the `<head>` tag:
+Open the **`index.html`** file and add HTML boilerplate. Then link the **`app.js`** file by adding this line inside the `<head>` tag:
 
 ```html
-<script defer src="./script.js"></script>
+<script defer src="./app.js"></script>
 ```
 
-With this setup complete, we'll have two methods at our disposal for executing the code we write in **`script.js`**:
+With this setup complete, we'll have two methods at our disposal for executing the code we write in **`app.js`**:
 
 - Open the **`index.html`** file in your browser and access the console output in your browser's dev tools.
-- Use `node` to execute the **`script.js`** file directly by using this command in your terminal:
+- Use `node` to execute the **`app.js`** file directly by using this command in your terminal:
 
 ```bash
-node script.js
+node app.js
 ```
 
 While either method is acceptable, you should use the same method as your instructor for simplicity.
-
