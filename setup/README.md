@@ -1,4 +1,7 @@
-# ![JavaScript Array Iterator Methods Lab - Setup](./assets/hero.png)
+<h1>
+  <span class="headline">JavaScript Array Iterator Methods Lab</span>
+  <span class="subhead">Setup</span>
+</h1>
 
 ## Setup
 

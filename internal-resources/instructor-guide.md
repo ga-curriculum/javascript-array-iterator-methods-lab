@@ -1,4 +1,7 @@
-# ![JavaScript Array Iterator Methods Lab - Instructor Guide](../assets/instructor-guide.png)
+<h1>
+  <span class="headline">JavaScript Array Iterator Methods Lab</span>
+  <span class="subhead">Instructor Guide</span>
+</h1>
 
 ---
 
