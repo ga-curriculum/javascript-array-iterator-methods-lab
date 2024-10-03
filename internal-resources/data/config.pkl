@@ -23,6 +23,7 @@ courses {
       // add microlessons here, in the order they should be delivered
       mls.setup
       mls.exercise
+      mls.levelUp
     }
   }
   new {
@@ -30,6 +31,7 @@ courses {
     microlessons {
       mls.setup
       mls.exercise
+      mls.levelUp
     }
   }
 }

@@ -24,6 +24,12 @@
           "dirName": "exercise",
           "type": "Content",
           "videoUrl": ""
+        },
+        {
+          "friendlyName": "Level Up",
+          "dirName": "level-up",
+          "type": "Content",
+          "videoUrl": ""
         }
       ],
       "isHeaderShown": true,
@@ -61,6 +67,12 @@
         {
           "friendlyName": "Exercise",
           "dirName": "exercise",
+          "type": "Content",
+          "videoUrl": ""
+        },
+        {
+          "friendlyName": "Level Up",
+          "dirName": "level-up",
           "type": "Content",
           "videoUrl": ""
         }

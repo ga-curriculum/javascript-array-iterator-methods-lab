@@ -11,3 +11,7 @@ This lab provides a hands-on opportunity to enhance your skills with JavaScript'
 
 - [Setup](../setup/README.md)
 - [Exercise](../exercise/README.md)
+
+## Level Up
+
+🚀 [Level Up](../level-up/README.md)
